@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
-fun NormanTextComponent(value:String){
+fun NormalTextComponent(value:String){
     Text(
 
         text = value,
@@ -23,9 +23,8 @@ fun NormanTextComponent(value:String){
             fontSize = 18.sp,
             fontWeight = FontWeight.Normal,
             fontStyle = FontStyle.Normal
-
         )
-
+        , color = TextColor
         )
 
 }
